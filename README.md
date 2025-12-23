@@ -8,14 +8,14 @@
 
 ---
 
-## Latest News🔥
+## Latest News 🔥
 - [2025/12] Initial release of vLLM Kunlun
 
 ---
 
 # Overview
 
-vLLM Kunlun (vllm-kunlun) is a community-maintained hardware plugin designed to seamlessly run vLLM on the Kunlun XPU. It is the recommended approach for integrating the Kunlun backend within the vLLM community, adhering to the principles outlined in the [RFC]: Hardware pluggable. This plugin provides a hardware-pluggable interface that decouples the integration of the Kunlun XPU with vLLM.
+vLLM Kunlun (vllm-kunlun) is a community-maintained hardware plugin designed to seamlessly run vLLM on the Kunlun XPU. It is the recommended approach for integrating the Kunlun backend within the vLLM community, adhering to the principles outlined in the [RFC Hardware pluggable](https://github.com/vllm-project/vllm/issues/11162). This plugin provides a hardware-pluggable interface that decouples the integration of the Kunlun XPU with vLLM.
 
 By utilizing the vLLM Kunlun plugin, popular open-source models, including Transformer-like, Mixture-of-Expert, Embedding, and Multi-modal LLMs, can run effortlessly on the Kunlun XPU.
 
@@ -116,12 +116,21 @@ Please use the following recommended versions to get started quickly:
 
 ---
 
-## Contributing
+## Contribute to vLLM Kunlun
 
-See [CONTRIBUTING]() for more details, which is a step-by-step guide to help you set up the development environment, build, and test.
+If you're interested in contributing to this project, please read [Contributing to vLLM Kunlun](CONTRIBUTING.md) to vLLM Kunlun.
 
-We welcome and value any contributions and collaborations:
-- Open an [Issue]() if you find a bug or have a feature request
+If you're interested in contributing to this project, please read [Contributing](CONTRIBUTING.md) to vLLM Kunlun.
+
+## Star History 🔥
+
+We opened the project at Dec 8, 2025. We love open source and collaboration ❤️
+
+[![Star History Chart](https://api.star-history.com/svg?repos=baidu/vLLM-Kunlun&type=Date)](https://www.star-history.com/#baidu/vLLM-Kunlun&Date)
+
+## Sponsors 👋
+
+We sincerely appreciate the [**KunLunXin**](https://www.kunlunxin.com/) team for their support in providing GPU resources, which enabled efficient model adaptation debugging, comprehensive end-to-end testing, and broader model compatibility.
 
 ## License
 
