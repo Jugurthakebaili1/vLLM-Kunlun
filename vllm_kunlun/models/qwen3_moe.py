@@ -40,7 +40,7 @@ from vllm.logger import init_logger
 from vllm_kunlun.ops.activation import SiluAndMul
 from vllm_kunlun.ops.fused_moe.layer import FusedMoE
 from vllm.model_executor.layers.layernorm import RMSNorm
-from vllm_kunlun.ops.linear import (MergedColumnParallelLinear,
+from vllm.model_executor.layers.linear import (MergedColumnParallelLinear,
                                                QKVParallelLinear,
                                                RowParallelLinear,
                                                ReplicatedLinear)

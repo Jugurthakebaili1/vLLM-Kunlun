@@ -38,7 +38,7 @@ from vllm.config import CacheConfig, VllmConfig
 from vllm.distributed import get_pp_group, get_tensor_model_parallel_world_size
 from vllm_kunlun.ops.activation import SiluAndMul
 from vllm.model_executor.layers.layernorm import RMSNorm
-from vllm_kunlun.ops.linear import (MergedColumnParallelLinear,
+from vllm.model_executor.layers.linear import (MergedColumnParallelLinear,
                                                QKVParallelLinear,
                                                RowParallelLinear)
 from vllm.model_executor.layers.logits_processor import LogitsProcessor

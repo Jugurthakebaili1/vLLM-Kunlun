@@ -92,7 +92,7 @@ from vllm.multimodal.processing import (
 from vllm.platforms.interface import _Backend
 from vllm.sequence import IntermediateTensors
 
-from vllm_kunlun.ops.linear import (
+from vllm.model_executor.layers.linear import (
     ColumnParallelLinear,
     MergedColumnParallelLinear,
     QKVParallelLinear,

@@ -33,11 +33,11 @@ from vllm_kunlun.ops.fused_moe.layer import FusedMoE
 from vllm.model_executor.layers.layernorm import (
     GemmaRMSNorm as Qwen3NextRMSNorm)
 # yapf: enable
-from vllm_kunlun.ops.linear import (ColumnParallelLinear,
+from vllm.model_executor.layers.linear import (ColumnParallelLinear,
                                                MergedColumnParallelLinear,
                                                QKVParallelLinear,
                                                RowParallelLinear)
-from vllm_kunlun.ops.linear import ReplicatedLinear
+from vllm.model_executor.layers.linear import ReplicatedLinear
 from vllm.model_executor.layers.logits_processor import LogitsProcessor
 from vllm.model_executor.layers.mamba.abstract import MambaBase
 from vllm.model_executor.layers.mamba.mamba_mixer2 import (
